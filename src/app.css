@@ -1,0 +1,27 @@
+@import "tailwindcss";
+@source "./public/*.{html,js}";
+@plugin "daisyui";
+
+@theme {
+    --color-custom-gray : #e7e9ef;
+    --color-custom-skyblue : #2b87d9; 
+    --color-custom-pink : #e84990; 
+    --color-custom-purple : #8765c1;
+    --shadow-3xl: 5px 5px 15px 15px rgb(47,120,170,0.1);
+    --breakpoint-xl: 86rem;
+    --breakpoint-mdx: 58rem;
+    --breakpoint-xs: 21.25rem;  
+  
+
+}
+
+
+*{
+    box-sizing: border-box;
+}
+@media screen and (max-width: 500px) {
+    body{
+        -webkit-text-size-adjust: 80%;
+    }
+}
+/* linear-gradient(to right, rgb(47,120,170,0.25) , rgb(232,76,164,0.25)) */
